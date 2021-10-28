@@ -1,0 +1,156 @@
+
+    <style media="screen">
+
+        .wrapper {
+            display: flex;
+            align-items: stretch;
+        }
+
+
+        a[data-toggle="collapse"] {
+            position: relative;
+        }
+
+        .dropdown-toggle:after {
+            display: block;
+            position: absolute;
+            top: 50%;
+            right: 5px;
+            transform: translateY(-50%);
+        }
+
+
+        @media only screen and (max-width: 540px) {
+          /* For tablets: */
+
+            #hero_main {
+                max-width: 100%;
+                padding: 1em;
+            }
+
+            body {
+                width:100%;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+
+        #mainpage, #centerform {
+
+                width: 100% !important;
+
+              }
+
+        }
+
+        @media only screen and (min-width: 600px) and (max-width:780px) {
+          /* For tablets: */
+
+            #hero_main {
+                max-width: 40%;
+                padding: 1em;
+            }
+
+            body {
+                width:100%;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            .nav-item {
+              font-size: 12px;
+            }
+
+        #mainpage, #centerform {
+
+                width: 100% !important;
+
+              }
+
+        }
+
+        @media only screen and (min-width: 768px) {
+          /* For desktop: */
+
+            #hero_main {
+                max-width: 50%;
+                padding: 1em;
+            }
+
+            body {
+                width:100%;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 10px;
+            }
+
+            .nav-item {
+              font-size: 16px;
+            }
+
+            #dropdownmenulinks {
+                left:-500%;
+            }
+
+        }
+
+        /*
+            ADDITIONAL DEMO STYLE, NOT IMPORTANT TO MAKE THINGS WORK BUT TO MAKE IT A BIT NICER :)
+        */
+        @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+        body, html {
+            font-family: 'Poppins', sans-serif;
+            background: #fafafa;
+            height: 100%;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.1em;
+            font-weight: 300;
+            line-height: 1.7em;
+            color: #999;
+        }
+
+        a, a:hover, a:focus {
+            color: inherit;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+            /* sideNav CSS */
+
+        #aside {
+            height: 1200px;
+            background-color: #264653;
+        }
+
+
+        .dropdown-menu .divider {
+            height: 1px;
+            overflow: hidden;
+            background-color: black;
+        }
+
+        ul ul a {
+            font-size: 0.9em !important;
+            padding-left: 30px !important;
+            background: #6d7fcc;
+        }
+
+        .small-box {
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+            padding:5px;
+            margin:2px;
+        }
+
+        .small-box p {
+            color: white;
+        }
+
+        /* sideNav CSS FOR CENTER SIGN/LOGIN AND SO ON SCREENS*/
+
+
+    </style>
